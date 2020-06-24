@@ -1,6 +1,7 @@
 
 
 line = ["Logan", "Avi", "Spencer"]
-maybe = line.shift
-puts maybe
-puts line.unshift(maybe)
+count = 0
+line.size.times do
+  puts count + array[num]
+  count += 1
