@@ -2,7 +2,9 @@
 def line(katz_deli)
   if katz_deli.size >= 1
     count = katz_deli.size - 1
-    puts "The line is currently: #{katz_deli[0..count]}"
+    maybe = katz_deli.each do
+    puts "The line is currently:" + 
+    
     elsif katz_deli.size == 0
      puts "The line is currently empty."
   else
@@ -10,4 +12,3 @@ def line(katz_deli)
   end
 end
 line(["Logan", "Avi", "Spencer"])
-katz_deli(["Logan", "Avi", "Spencer, "])
