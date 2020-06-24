@@ -2,11 +2,7 @@
 def line(katz_deli)
   if katz_deli.size >= 1
     count = katz_deli.size - 1
-    maybe = katz_deli.each do
-  end
-  maybe
-
-    puts "The line is currently:" 
+    puts "The line is currently: #{katz_deli.join(katz_deli.index)}" 
     
   else 
      puts "The line is currently empty."
