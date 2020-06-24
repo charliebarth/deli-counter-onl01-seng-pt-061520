@@ -1,5 +1,5 @@
 
-
+def dont_run
 line = ["Logan", "Avi", "Spencer"]
 count = 0
 num = 0
@@ -11,3 +11,4 @@ line.size.times do
   new_array.push(next_customer)
 end
 puts  new_array.join(" ")
+end
