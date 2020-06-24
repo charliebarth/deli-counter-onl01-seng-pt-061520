@@ -1,3 +1,3 @@
 array = ["Logan", "Avi", "Spencer"]
 puts array[1]
-puts array.index("Logan", "Avi")
+puts array.index(0..1)
