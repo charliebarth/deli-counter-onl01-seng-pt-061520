@@ -10,4 +10,4 @@ line.size.times do
   num += 1
   new_array.push(next_customer)
 end
- new_array.join(" ")
+puts  new_array.join(" ")
