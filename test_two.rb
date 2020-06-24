@@ -5,7 +5,8 @@ count = 0
 num = 0
 line.size.times do
   count += 1
-  puts "#{count}. " + "#{line[num]}"
+  next_customer = "#{count}. " + "#{line[num]}"
   num += 1
+  new_array.push(next_customer)
 end
-  
+ puts new_array
