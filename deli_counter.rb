@@ -12,17 +12,3 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, names)
-  if katz_deli.size >= 1
-    counter = 1
-    katz_deli.each do |name|
-      puts "Welcome, #{name}. You are currently number #{counter} in line."
-      counter += 1
-    end
-  else
-  end
-end
-
-def now_serving
-  
-end
