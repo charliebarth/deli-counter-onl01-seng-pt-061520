@@ -1,4 +1,4 @@
-array = ["Logan", "Avi", "Spencer"]
+katz_deli = ["Logan", "Avi", "Spencer"]
 
  count = katz_deli.size - 1
     puts "The line is currently: #{katz_deli[0..count]}"
