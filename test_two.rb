@@ -4,3 +4,4 @@ array = ["Logan", "Avi", "Spencer"]
     puts "The line is currently: #{katz_deli[0..count]}"
     katz_deli.each do |name|
       puts "#{|name|}"
+    end
