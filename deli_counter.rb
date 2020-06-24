@@ -19,7 +19,7 @@ def take_a_number(katz_deli, name)
   
   puts "Welcome, #{name}. You are the #{katz_deli.index("#{name}") + 1} in line."
 end
-take_a_number(["Logan", "Avi", "Spencer", "Ada"], "Ada")
+
 
 def now_serving
   
