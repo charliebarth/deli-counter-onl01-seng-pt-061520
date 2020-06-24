@@ -5,7 +5,7 @@ def line(katz_deli)
       puts "Welcome, #{name}. You are currently number #{counter} in line."
       counter += 1
     end
-    elsif array == 0
+    elsif katz_deli == 0
     puts "The line is currently empty."
   else
       
