@@ -5,7 +5,7 @@ def line(katz_deli)
     maybe = katz_deli.each do
   end
   maybe
-end
+
     puts "The line is currently:" 
     
   else 
