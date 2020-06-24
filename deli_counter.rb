@@ -19,7 +19,8 @@ def take_a_number(katz_deli, name)
   place =  katz_deli.index("#{name}") + 1
   puts "Welcome, #{name}. You are the #{place} in line."
 end
-take_a_numer(["Logan", "Avi", "Spencer", "Ada"], "Ada")
+take_a_number(["Logan", "Avi", "Spencer", "Ada"], "Ada")
+
 def now_serving
   
 end
