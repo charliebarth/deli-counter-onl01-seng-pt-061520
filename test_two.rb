@@ -5,9 +5,9 @@ def line(katz_deli)
     maybe = katz_deli.each do
     puts "The line is currently:" + 
     
-    elsif katz_deli.size == 0
+    else katz_deli.size
      puts "The line is currently empty."
-  else
+  
       
   end
 end
