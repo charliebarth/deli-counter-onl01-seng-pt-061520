@@ -10,7 +10,7 @@ def line(katz_deli)
       num += 1
       new_array.push(next_customer)
 end
-puts "The line currently is:" "#{new_array.join(" ")}"
+puts "The line currently is: " "#{new_array.join(" ")}"
   else
       
   end
