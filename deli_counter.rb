@@ -6,7 +6,7 @@ def line(katz_deli)
       counter += 1
     end
     elsif katz_deli == 0
-    puts "The line is currently empty."
+     "The line is currently empty."
   else
       
   end
