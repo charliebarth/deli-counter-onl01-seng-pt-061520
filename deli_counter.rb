@@ -23,6 +23,7 @@ def take_a_number(katz_deli, names)
       counter += 1
     end
   else
+    
   end
 end
 
