@@ -1,7 +1,9 @@
 def line(array)
   if array >= 1
+    counter = 1
     array.each do |name|
-      puts ""
+      puts "Welcome, #{name}. You are currently number #{counter} in line."
+      counter += 1
     elsif array == 0
     puts "The line is currently empty."
   else
