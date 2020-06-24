@@ -1,7 +1,7 @@
 def line(katz_deli)
   if katz_deli.size >= 1
     counter = 1
-    array.each do |name|
+    katz_deli.each do |name|
       puts "Welcome, #{name}. You are currently number #{counter} in line."
       counter += 1
     end
