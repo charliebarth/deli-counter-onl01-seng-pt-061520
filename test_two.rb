@@ -4,6 +4,8 @@ def line(katz_deli)
     count = katz_deli.size - 1
     maybe = katz_deli.each do
   end
+  maybe
+end
     puts "The line is currently:" 
     
   else 
