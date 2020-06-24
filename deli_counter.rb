@@ -4,6 +4,7 @@ def line(array)
     array.each do |name|
       puts "Welcome, #{name}. You are currently number #{counter} in line."
       counter += 1
+    end
     elsif array == 0
     puts "The line is currently empty."
   else
