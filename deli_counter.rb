@@ -1,9 +1,16 @@
 def line(katz_deli)
   if katz_deli.size >= 1
-    count = katz_deli.size - 1
-    puts "The line is currently: #{katz_deli[0..count]}"
-    elsif katz_deli.size == 0
-     puts "The line is currently empty."
+    line = ["Logan", "Avi", "Spencer"]
+    count = 0
+    num = 0
+    new_array = []
+    line.size.times do
+      count += 1
+      next_customer = "#{count}. " + "#{line[num]}"
+      num += 1
+      new_array.push(next_customer)
+end
+puts  new_array.join(" ")
   else
       
   end
