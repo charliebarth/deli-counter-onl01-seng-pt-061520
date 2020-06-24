@@ -8,8 +8,8 @@ def line(katz_deli)
       next_customer = "#{count}. " + "#{katz_deli[num]}"
       num += 1
       new_array.push(next_customer)
-end
-puts "The line is currently: " "#{new_array.join(" ")}"
+    end
+  puts "The line is currently: " "#{new_array.join(" ")}"
   else
     puts "The line is currently empty."
   end
