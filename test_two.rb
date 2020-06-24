@@ -14,4 +14,4 @@ puts  new_array.join(" ")
 end
 array = ["Logan", "Avi", "Spencer"]
 name = 1
-puts array.index(name)
+puts array[name]
